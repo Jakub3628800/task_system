@@ -2,12 +2,18 @@
 name = "celery_claude_app"
 version = "0.1.0"
 description = "A simple Celery app that communicates with Claude API"
-requires-python = ">=3.8"
+requires-python = ">=3.12"
 dependencies = [
     "celery",
     "redis",
+    "pyaudio",
+    "pytest",
+    "keyboard",
+    "openai-whisper",
     "anthropic",
     "litellm",
+    "browser-use",
+    "langchain-openai",
 ]
 
 [build-system]

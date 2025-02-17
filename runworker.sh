@@ -1,2 +1,2 @@
 #!/bin/bash
-celery -A celery worker --loglevel=info
+celery -A tasks worker --loglevel=info
